@@ -6,7 +6,7 @@ class Game {
   }
 
   /** 
-   * Creates two player objects
+   * Creates two player objects.
    * @return  {Array}    An array of two Player objects.
    */
   createPlayers() {
@@ -16,5 +16,12 @@ class Game {
     ];
 
     return players;
+  }
+
+  /**
+   * Gets game ready for play.
+   */
+  startGame() {
+
   }
 }
